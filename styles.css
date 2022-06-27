@@ -1,0 +1,26 @@
+body {
+    background: rgba(22, 24, 22, 1);
+}
+
+.card {
+    background: #5ce1e6;
+    font-family: Arial;
+    font-size: 50px;
+    width: 180px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 7px 0 rgb(211, 243, 245);
+    animation: rotate 5s cubic-bezier(.54, .13, .30, .87);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0turn);
+    }
+    100% {
+        transform: rotateY(10turn);
+}
+}
